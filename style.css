@@ -1,24 +1,30 @@
-.container-fluid{
-  padding: 5% 20% 7%;
-  width: 50%;
+.container{
+padding-bottom: 50px;
+text-align: right;
+
+
 }
 body{
   background-color: black;
 }
 #title{
   background-color: hsl(218, 28%, 13%);
-  text-align: center;
   color: white;
+text-align: center;
 }
+.navbar-brand{
+  padding-right: 80px;
 
+}
 .nav-link{
   color: white;
-}
+  width: 100px;
 
-#title.p{
-  width: 583px;
-margin: 277px;
-font-size: 1rem;
+}
+.para1 {
+  width: 100%;
+  max-width: 660px;
+    margin: 0 auto 1.5rem;
 }
 
 .h3{
@@ -44,28 +50,21 @@ font-size: 1rem;
 }
 
 .all-files{
-  width: 50%;
-  height: auto;
-}
-
-.heading{
-width: 50%;
-height: auto;
-margin-left: 300px;
+  width: 100%;
+  max-width: 440px;
 
 }
 
 
-h2{
-  width: 90%;
-  padding: 40px;
-  text-align: center;
-}
+
+
 
 #section-two{
   color: white;
   background-color:  hsl(218, 28%, 13%);
-  padding: 150px;
+width: 100%;
+max-width: 1300px;
+padding: 150px;
 
 }
 
@@ -73,8 +72,11 @@ h2{
   background-color:  hsl(218, 28%, 13%);
   color: white;
 
-  text-align: left;
 
+  width: 100%;
+  max-width: 1300px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 .collab{
@@ -109,7 +111,12 @@ border-left-width: 40px;
 
 
 }
-
+.heading{
+  width: 100%;
+  margin: 0 auto 1.5rem;
+  max-width: 630px;
+  display: block;
+}
 .Contact{
   margin:10px;
   padding: 20px;
@@ -133,11 +140,11 @@ border-left-width: 40px;
 .con{
   padding-bottom: 20px;
 }
-.para1{
-width: 50%;
-height: auto;
-text-align: center;
-margin-left: 300px;
 
-
+.navbar-nav{
+  padding-left: 30px;
+}
+.brand{
+  width: 100px;
+  padding-right: 20px;
 }
