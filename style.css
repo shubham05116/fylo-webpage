@@ -2,11 +2,8 @@
 padding-bottom: 50px;
 text-align: right;
 
+}
 
-}
-body{
-  background-color: black;
-}
 #title{
   background-color: hsl(218, 28%, 13%);
   color: white;
@@ -27,27 +24,7 @@ text-align: center;
     margin: 0 auto 1.5rem;
 }
 
-.h3{
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 50px;
-}
-.p2{
 
-  margin-right:40px;
-  margin-left: 50px;
-
-}
-.sec{
-  margin-bottom: 20px;
-}
-.seco{
-  margin-bottom: 50px;
-
-}
-.security{
-  margin-bottom: 50px;
-}
 
 .all-files{
   width: 100%;
@@ -63,8 +40,7 @@ text-align: center;
   color: white;
   background-color:  hsl(218, 28%, 13%);
 width: 100%;
-max-width: 1300px;
-padding: 150px;
+padding-left: 150px;
 
 }
 
@@ -73,23 +49,19 @@ padding: 150px;
   color: white;
 
 
-  width: 100%;
-  max-width: 1300px;
-  padding-left: 20px;
-  padding-right: 20px;
+
 
 }
 .collab{
-  font-size: 1.5rem;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    display: block;
-    margin-bottom: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin-top: 100px;
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+.para2{
+  margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 50px;
 }
 
 .stay-productive{
@@ -134,9 +106,7 @@ border-left-width: 40px;
   color: white;
   padding-bottom:  50px;
 }
-.logo{
-  padding-bottom: 30px;
-}
+
 .con{
   padding-bottom: 20px;
 }
