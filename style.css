@@ -40,13 +40,15 @@ text-align: center;
   color: white;
   background-color:  hsl(218, 28%, 13%);
 width: 100%;
-padding-left: 150px;
 
+    padding-left: 20%;
 }
 
 #collaborate{
   background-color:  hsl(218, 28%, 13%);
   color: white;
+  margin-top: 100px;
+  width
 
 
 
@@ -57,6 +59,9 @@ padding-left: 150px;
   height: auto;
   padding-top: 40px;
   padding-left: 50px;
+      margin-right: 0px;
+    padding-right: 250px;
+    border-right-width: 300px;
 }
 .para2{
   margin-top: 0;
@@ -68,6 +73,8 @@ padding-left: 150px;
   width: 100%;
   height: auto;
   padding-right: 30px;
+  width: 100%;
+    max-width: 650px;
 }
 .btn{
   border-top-width: 1px;
@@ -100,11 +107,23 @@ border-left-width: 40px;
   text-align: center;
   background-color: hsl(218, 28%, 13%);
   color: white;
+  
 
+}
+.last{
+     left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+.links{
+      font-size: 2rem;
+    margin-left: 40px;
 }
 .grey{
   color: white;
   padding-bottom:  50px;
+      margin-left: 40px;
+    margin-top: 20px;
 }
 
 .con{
