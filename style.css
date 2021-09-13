@@ -1,12 +1,14 @@
+.main{
+  background-color: hsl(218, 28%, 13%);
+  overflow-x: scroll;
+}
+
 .container{
 padding-bottom: 50px;
 text-align: right;
 
 }
-body {
-      overflow-x: hidden;
-  background-color: hsl(218, 28%, 13%);
-}
+
 
 
 #title{
@@ -37,16 +39,12 @@ text-align: center;
 
 }
 
-
-
-
-
 #section-two{
   color: white;
   background-color:  hsl(218, 28%, 13%);
 width: 100%;
 
-    padding-left: 20%;
+    padding: 0px 20%  ;
 }
 
 #collaborate{
@@ -66,7 +64,6 @@ width: 100%;
   padding-left: 50px;
       margin-right: 0px;
     padding-right: 250px;
-    border-right-width: 300px;
 }
 .para2{
   margin-top: 0;
@@ -112,17 +109,21 @@ border-left-width: 40px;
   text-align: center;
   background-color: hsl(218, 28%, 13%);
   color: white;
-  
+
 
 }
 .last{
      left: 30px;
     margin-top: 40px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
+    width: 100%;
+max-width: 1000px;
 }
 .links{
       font-size: 2rem;
     margin-left: 40px;
+    width: 100%;
+max-width: 1000px;
 }
 .grey{
   color: white;
@@ -141,4 +142,8 @@ border-left-width: 40px;
 .brand{
   width: 100px;
   padding-right: 20px;
+}
+
+.access-anywhere{
+  width: 60px;
 }
